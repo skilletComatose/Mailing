@@ -117,21 +117,22 @@ p{
     margin: auto;
     width: 26%;
     height: 350px;
-    border-radius: 25px;
+    border-radius: 85px;
     background-color: rgba(245, 245, 245, 0.685); 
 }
 .caja{
     margin: auto;
-    width: 90%;
-    height: 48%;
-    /*background-color: blue;*/
+    width: 200px;
+    height: 200px;
+    /* width: 90%;
+    height: 48%;*/
 }
 .mad{
     width: 70%;
     margin: auto;
     height: auto;
     margin-bottom: 120px;
-    margin-top: 15px;
+    margin-top: 10px;
     font-weight: 600;
     font-family: sans-serif;
     text-align: center;
@@ -142,28 +143,30 @@ p{
 
 .madara:hover {
     width: 26%;
-    transition: 1.0s;
+    transition: 2.2s;
     border-radius: 25px;
-    background-color: rgba(136, 92, 92, 0.521); 
+    background-color: rgba(136, 92, 92, 0.39); 
     color: white;
 }
 
 .minato:hover{
-    transition: 1.0s;
+    transition: 2.2s;
     width: 26%;
-    background-color: rgb(231, 231, 140);
+    border-radius: 25px;
+    background-color: rgba(231, 231, 140, 0.521);
 }
 
 .guy:hover{
-    transition: 1.0s;
+    transition: 2.2s;
     width: 26%; 
-    background-color: rgba(147, 216, 213, 0.918);    
+    border-radius: 25px;
+    background-color: rgba(147, 216, 213, 0.521);    
 }
 
 .img1 {
+    width: 90%;
+    height: 90%;
     margin: auto;
-    width: 80%;
-    height: 100%;
     border-radius: 100%;
     background-image: url(../IMAGE/madara2.jpg);
     background-size: cover;
@@ -171,9 +174,9 @@ p{
 }
 
 .img2 {
+    width: 90%;
+    height: 90%;
     margin: auto;
-    width: 80%;
-    height: 100%;
     border-radius: 100%;
     background-image: url(../IMAGE/minato.jpg);
     background-size: cover;
@@ -181,10 +184,10 @@ p{
 }
 
 .img3 {
+    width: 90%;
+    height: 90%;
     margin: auto;
     margin-top: 0px;
-    width: 80%;
-    height: 100%;
     border-radius: 100%;
     background-image: url(../IMAGE/guy.jpg);
     background-size: cover;
@@ -192,8 +195,8 @@ p{
 }
 
 .img1:hover{
-    width: 90%;
-    height: 105%;
+    width: 100%;
+    height: 100%;
     transition: 1.0s;
     background-image: url(../IMAGE/madara.gif);
     background-size: cover;
@@ -202,22 +205,22 @@ p{
 }
 
 .img2:hover{
+    width: 100%;
+    height: 100%;
     transition: 1.0s;
     background-image: url(../IMAGE/minato.gif);
     background-size: cover;
     background-position: center;
-    width: 90%;
-    height: 105%;
     border-radius: 100%;
   }
   
   .img3:hover{
+    width: 100%;
+    height: 100%;
     transition: 1.0s;
     background-image: url(../IMAGE/Guy.gif);
     background-size: cover;
     background-position: center;
-    width: 90%;
-    height: 105%;
     border-radius: 100%;
   }
   
