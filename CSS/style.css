@@ -133,14 +133,16 @@ p{
     margin: auto;
     height: auto;
     margin-bottom: 120px;
-    font-family: 'naruto';
+    font-family: sans-serif, Arial, Helvetica;
     line-height: 18px; 
     text-align: center;
-    font-size: 80%;
+    font-size: 95%;
     color: black;
     /*background-color: blueviolet;*/
 }
-
+#mad2:hover{
+    color: white;
+}
 .madara:hover {
     width: 26%;
     transition: 2.2s;
@@ -153,7 +155,7 @@ p{
     transition: 2.2s;
     width: 26%;
     border-radius: 25px;
-    background-color: rgba(231, 231, 140, 0.521);
+    background-color: rgba(231, 231, 140, 0.856);
 }
 
 .guy:hover{
@@ -224,3 +226,26 @@ p{
     border-radius: 100%;
   }
   
+.container2{
+    margin: auto;
+    width: 70%;
+    min-width: 560px;
+    height:600px;
+    background-image: url(../IMAGE/naruto3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    /*background-color: rgb(15, 15, 15);*/
+}
+
+.txt{
+    position: relative;
+    top: 30%;
+    width: 50%;
+    height: auto;
+}
+
+.txt1{
+    width: 100%;
+    color: white;
+}
