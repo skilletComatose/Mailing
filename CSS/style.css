@@ -132,7 +132,7 @@ p{
 }
 
 .madara:hover {
-    width: 200px;
+    width: 210px;
     height: 400px;
     border-radius: 25px;
     background-color: rgba(136, 92, 92, 0.521); 
@@ -148,7 +148,38 @@ p{
     background-color: white;
 }
 
-.min{
+.minato:hover{
+    width: 210px;
+    background-color: rgb(231, 231, 140);
+}
+
+.min {
+    width: 100%;
+    margin: auto;
+    margin-top: 15px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+}
+
+.guy{
+    width: 200px;
+    height: 400px;
+    margin: auto;
+    margin-top: 0px;
+    border-radius: 25px; 
+    background-color: white;
+}
+
+.guy:hover{
+    width: 210px; 
+    background-color: rgba(147, 216, 213, 0.918);    
+}
+
+
+.gu{
     width: 100%;
     margin: auto;
     margin-top: 15px;
@@ -183,7 +214,7 @@ p{
     width: 200px;
     height: 200px;
     border-radius: 100%;
-    background-image: url(../IMAGE/kakashi2.jpg);
+    background-image: url(../IMAGE/guy.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -192,8 +223,8 @@ p{
   background-image: url(../IMAGE/madara.gif);
   background-size: cover;
   background-position: center;
-  width: 200px;
-  height: 200px;
+  width: 210px;
+  height: 210px;
   border-radius: 100%;
 }
 
@@ -201,9 +232,17 @@ p{
     background-image: url(../IMAGE/minato.gif);
     background-size: cover;
     background-position: center;
-    width: 200px;
-    height: 200px;
+    width: 210px;
+    height: 210px;
     border-radius: 100%;
   }
   
+  .img3:hover{
+    background-image: url(../IMAGE/Guy.gif);
+    background-size: cover;
+    background-position: center;
+    width: 210px;
+    height: 210px;
+    border-radius: 100%;
+  }
   
