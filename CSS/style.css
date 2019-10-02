@@ -249,3 +249,20 @@ p{
     width: 100%;
     color: white;
 }
+
+button{
+    position: relative;
+    font-family: 'naruto';
+    font-size: 25px;
+    top: 50%;
+    left: 10%;
+    color: black;
+    padding: 15px;
+    border-radius: 35px;
+}
+
+button:hover{
+    color:white;
+    text-shadow: 2px 2px black;
+    background-color: rgb(134, 196, 196);
+}
