@@ -51,7 +51,7 @@ table {
 
 body{
     font-family: 'naruto';
-    background-color: #82818786;
+    
 }
 p{  
     width: 58%;
@@ -87,7 +87,7 @@ p{
 
 .letter{
     position: relative;
-    top: 80%;
+    top: 75%;
     width: 100%;
     height: 100px;
     /*background-color: rgba(255, 0, 0, 0.37);*/
@@ -111,17 +111,17 @@ p{
     /*background-color: blue;*/
 }
 
-.madara{
+.madara ,.minato ,.guy{
     margin: auto;
-    margin-top: 0px;
-    width: 200px;
-    height: 400px;
+    width: 26%;
+    height: 350px;
     border-radius: 25px;
+    transition: 1.0s;
     background-color: white; 
 }
 
-.mad{
-    width: 100%;
+.mad, .min, .gu{
+    width: 90%;
     margin: auto;
     margin-top: 15px;
     font-weight: 600;
@@ -132,27 +132,17 @@ p{
 }
 
 .madara:hover {
-    width: 210px;
-    height: 400px;
+    width: 26%;
     border-radius: 25px;
     background-color: rgba(136, 92, 92, 0.521); 
     color: white;
 }
 
-.minato{
-    width: 200px;
-    height: 400px;
-    margin: auto;
-    margin-top: 25%;
-    border-radius: 25px; 
-    background-color: white;
-}
-
 .minato:hover{
-    width: 210px;
+    width: 26%;
     background-color: rgb(231, 231, 140);
 }
-
+/*
 .min {
     width: 100%;
     margin: auto;
@@ -163,22 +153,13 @@ p{
     font-size: 16px;
     color: black;
 }
-
-.guy{
-    width: 200px;
-    height: 400px;
-    margin: auto;
-    margin-top: 0px;
-    border-radius: 25px; 
-    background-color: white;
-}
-
+*/
 .guy:hover{
-    width: 210px; 
+    width: 26%; 
     background-color: rgba(147, 216, 213, 0.918);    
 }
 
-
+/*
 .gu{
     width: 100%;
     margin: auto;
@@ -189,8 +170,9 @@ p{
     font-size: 16px;
     color: black;
 }
-
+*/
 .img1 {
+    margin: auto;
     width: 200px;
     height: 200px;
     border-radius: 100%;
@@ -200,6 +182,7 @@ p{
 }
 
 .img2 {
+    margin: auto;
     width: 200px;
     height: 200px;
     border-radius: 100%;
@@ -220,15 +203,17 @@ p{
 }
 
 .img1:hover{
-  background-image: url(../IMAGE/madara.gif);
-  background-size: cover;
-  background-position: center;
-  width: 210px;
-  height: 210px;
-  border-radius: 100%;
+    width: 210px;
+    height: 210px;
+    transition: 1.0s;
+    background-image: url(../IMAGE/madara.gif);
+    background-size: cover;
+    background-position: center;
+    border-radius: 100%;
 }
 
 .img2:hover{
+    transition: 1.0s;
     background-image: url(../IMAGE/minato.gif);
     background-size: cover;
     background-position: center;
@@ -238,6 +223,7 @@ p{
   }
   
   .img3:hover{
+    transition: 1.0s;
     background-image: url(../IMAGE/Guy.gif);
     background-size: cover;
     background-position: center;
