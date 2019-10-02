@@ -1,0 +1,154 @@
+html, body, div, span, applet, object, iframe,
+h1,h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+    border-collapse: collapse;
+	border-spacing: 0;
+}
+/*------------------------------------------------RESET CSS- -------------------------------------------*/
+
+@font-face{  /*declarar la fuente que descargue*/
+	font-family: 'naruto';
+	src: url(../FONT/naruto/njnaruto.ttf);
+	   
+}
+
+body{
+    font-family: 'naruto';
+    background-color:#828187;
+}
+p{  
+    position: relative;
+    top: 80%;
+    left: 5%;
+    letter-spacing: 5px;
+    font-size: 40px;
+    color: white;
+}
+.main{
+    margin: 0 auto;
+    margin-top: 20px;
+    width: 980px;
+    height: 500px;
+    border-radius: 4px;
+    background-image: url(../IMAGE/kakashi2.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+ 
+.katon{
+    position: relative;
+    top: 82%;
+    letter-spacing: 5px;
+    font-size: 18px;
+    color: white;
+}
+
+.container{
+    margin: 0 auto;
+    width: 980px;
+    height: auto;
+    padding-bottom: 50px;
+    background-color: rgb(224, 220, 220);
+}
+
+.one{
+    display: flex;
+    width: 95%; 
+    height: auto;
+    margin: auto;
+    position: relative;
+    top: 25px;
+    background-color: rgb(0, 247, 255);
+}
+
+
+.img1 {
+    margin: auto;
+    margin-top: 250px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-image: url(../IMAGE/madara2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.img2 {
+    margin: auto;
+    margin-top: 0px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-image: url(../IMAGE/sharingan.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.img3 {
+    margin: auto;
+    margin-top: 250px;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-image: url(../IMAGE/kakashi2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.img1:hover{
+  background-image: url(../IMAGE/madara.gif);
+  background-size: cover;
+  background-position: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+.img2:hover{
+    background-image: url(../IMAGE/Sharingan.gif);
+    background-size: cover;
+    background-position: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+  }
+  
+  
