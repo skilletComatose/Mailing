@@ -51,7 +51,7 @@ table {
 
 body{
     font-family: 'naruto';
-    background-color:#828187;
+    background-color: #82818786;
 }
 p{  
     width: 58%;
@@ -94,11 +94,11 @@ p{
 }
 
 .container{
-    margin: 0 auto;
+    margin: auto;
     width: 70%;
     height: auto;
     padding-bottom: 50px;
-    background-color: rgb(224, 220, 220);
+    background-color:whitesmoke;
 }
 
 .one{
@@ -108,13 +108,58 @@ p{
     margin: auto;
     position: relative;
     top: 25px;
-    background-color: rgb(0, 247, 255);
+    /*background-color: blue;*/
 }
 
+.madara{
+    margin: auto;
+    margin-top: 0px;
+    width: 200px;
+    height: 400px;
+    border-radius: 25px;
+    background-color: white; 
+}
+
+.mad{
+    width: 100%;
+    margin: auto;
+    margin-top: 15px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+}
+
+.madara:hover {
+    width: 200px;
+    height: 400px;
+    border-radius: 25px;
+    background-color: rgba(136, 92, 92, 0.521); 
+    color: white;
+}
+
+.minato{
+    width: 200px;
+    height: 400px;
+    margin: auto;
+    margin-top: 25%;
+    border-radius: 25px; 
+    background-color: white;
+}
+
+.min{
+    width: 100%;
+    margin: auto;
+    margin-top: 15px;
+    font-weight: 600;
+    font-family: sans-serif;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+}
 
 .img1 {
-    margin: auto;
-    margin-top: 250px;
     width: 200px;
     height: 200px;
     border-radius: 100%;
@@ -124,19 +169,17 @@ p{
 }
 
 .img2 {
-    margin: auto;
-    margin-top: 0px;
     width: 200px;
     height: 200px;
     border-radius: 100%;
-    background-image: url(../IMAGE/sharingan.png);
+    background-image: url(../IMAGE/minato.jpg);
     background-size: cover;
     background-position: center;
 }
 
 .img3 {
     margin: auto;
-    margin-top: 250px;
+    margin-top: 0px;
     width: 200px;
     height: 200px;
     border-radius: 100%;
@@ -144,6 +187,7 @@ p{
     background-size: cover;
     background-position: center;
 }
+
 .img1:hover{
   background-image: url(../IMAGE/madara.gif);
   background-size: cover;
@@ -154,7 +198,7 @@ p{
 }
 
 .img2:hover{
-    background-image: url(../IMAGE/Sharingan.gif);
+    background-image: url(../IMAGE/minato.gif);
     background-size: cover;
     background-position: center;
     width: 200px;
