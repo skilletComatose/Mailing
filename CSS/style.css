@@ -24,7 +24,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+    line-height: 1;
+    background-color: rgb(109, 40, 40);
 }
 ol, ul {
 	list-style: none;
@@ -132,9 +133,8 @@ p{
     margin: auto;
     height: auto;
     margin-bottom: 120px;
-    margin-top: 10px;
-    font-weight: 600;
-    font-family: sans-serif;
+    font-family: 'naruto';
+    line-height: 18px; 
     text-align: center;
     font-size: 80%;
     color: black;
@@ -145,7 +145,7 @@ p{
     width: 26%;
     transition: 2.2s;
     border-radius: 25px;
-    background-color: rgba(136, 92, 92, 0.39); 
+    background-color: rgba(114, 55, 55, 0.685); 
     color: white;
 }
 
