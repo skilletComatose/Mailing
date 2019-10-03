@@ -239,8 +239,6 @@ p{
 }
 
 .txt{
-    position: relative;
-    top: 30%;
     width: 50%;
     height: auto;
 }
@@ -251,11 +249,10 @@ p{
 }
 
 button{
-    position: relative;
+    margin-top: 25%;
+    margin-left: 10%;
     font-family: 'naruto';
     font-size: 25px;
-    top: 50%;
-    left: 10%;
     color: black;
     padding: 15px;
     border-radius: 35px;
