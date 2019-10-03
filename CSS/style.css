@@ -239,6 +239,8 @@ p{
 }
 
 .txt{
+    position: relative;
+    top: 26%;
     width: 50%;
     height: auto;
 }
@@ -249,13 +251,15 @@ p{
 }
 
 button{
-    margin-top: 25%;
+    margin-top: 35%;
     margin-left: 10%;
     font-family: 'naruto';
     font-size: 25px;
-    color: black;
+    color: white;
     padding: 15px;
     border-radius: 35px;
+    background-color: #e67040;
+    text-shadow: 2px 2px black;
 }
 
 button:hover{
