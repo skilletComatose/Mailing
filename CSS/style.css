@@ -77,7 +77,7 @@ p{
     margin: 0 auto;
     margin-top: 20px;
     width: 70%;
-    min-width: 560px;
+    min-width: 957px;
     height: 500px;
     border-radius: 4px;
     background-image: url(../IMAGE/kakashi2.jpg);
@@ -98,7 +98,7 @@ p{
 .container{
     margin: auto;
     width: 70%;
-    min-width: 560px;
+    min-width: 957px; 
     height: auto;
     padding-bottom: 50px;
     background-color:#b2b1b6b4
@@ -117,20 +117,20 @@ p{
 .madara ,.minato ,.guy{
     margin: auto;
     width: 26%;
-    height: 350px;
+    height: 450px;
     border-radius: 85px;
     background-color: rgba(245, 245, 245, 0.685); 
 }
 .caja{
     margin: auto;
-    width: 200px;
-    height: 200px;
-    /* width: 90%;
-    height: 48%;*/
+    margin-top: 10%;
+    width: 210px;
+    height: 210px;
 }
 .mad{
     width: 70%;
     margin: auto;
+    margin-top: 20px;
     height: auto;
     margin-bottom: 120px;
     font-family: sans-serif, Arial, Helvetica;
@@ -229,7 +229,7 @@ p{
 .container2{
     margin: auto;
     width: 70%;
-    min-width: 560px;
+    min-width: 957px;
     height:600px;
     background-image: url(../IMAGE/naruto3.jpg);
     background-repeat: no-repeat;
@@ -266,4 +266,13 @@ button:hover{
     color:white;
     text-shadow: 2px 2px black;
     background-color: rgb(134, 196, 196);
+}
+
+footer{
+    margin: 0 auto;
+    width: 70%;
+    min-width: 957px;
+    height: 100px;
+    border-radius: 4px;
+    background-color: white;   
 }
