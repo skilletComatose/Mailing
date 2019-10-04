@@ -103,7 +103,7 @@ p{
     max-width: 1097px;
     height: auto;
     padding-bottom: 50px;
-    background-color:#b2b1b6b4
+    background-color:#b2b1b6b4;
 }
 
 .one{
@@ -275,11 +275,49 @@ button:hover{
 }
 
 footer{
+    display: flex;
     margin: 0 auto;
     width: 70%;
     min-width: 957px;
     max-width: 1097px;
-    height: 100px;
+    height: 50px;
     border-radius: 4px;
-    background-color: white;   
+    background-color:#828187;
+}
+
+section{
+    width: 30%;
+    height: 100%;
+    display: flex;
+}
+.face, .whats, .inst{
+    width: 17%; 
+    height: 100%;
+    border-radius: 100%;
+    margin-left: 12%;
+    background-position: center;
+    background-size: cover;
+}
+
+.face{
+    background-image: url(../IMAGE/ICON/facebook.png);
+}
+
+.inst{
+    background-image: url(../IMAGE/ICON/instagram.png);
+}
+
+.whats{
+    background-image: url(../IMAGE/ICON/whatsapp.png);
+}
+
+.footer{
+    margin: auto;
+    margin-top: 2%;
+    margin-left: 50%;
+    color: black;
+    width: 20%;
+    height: 80%;
+    text-shadow: 2px 2px white;
+    font-size: 16px;
 }
