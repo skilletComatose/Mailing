@@ -145,87 +145,62 @@ p{
 #mad2:hover{
     color: white;
 }
-.madara:hover {
+.madara:hover,.minato:hover,.guy:hover {
     width: 26%;
     transition: 2.2s;
     border-radius: 25px;
+}
+
+.madara:hover{
     background-color: rgba(114, 55, 55, 0.685); 
     color: white;
 }
-
 .minato:hover{
-    transition: 2.2s;
-    width: 26%;
-    border-radius: 25px;
     background-color: rgba(231, 231, 140, 0.856);
 }
 
 .guy:hover{
-    transition: 2.2s;
-    width: 26%; 
-    border-radius: 25px;
     background-color: rgba(147, 216, 213, 0.521);    
 }
 
-.img1 {
+.img1, .img2, .img3 {
     width: 90%;
     height: 90%;
     margin: auto;
     border-radius: 100%;
-    background-image: url(../IMAGE/madara2.jpg);
     background-size: cover;
     background-position: center;
 }
 
+.img1{
+    background-image: url(../IMAGE/madara2.jpg);
+}
 .img2 {
-    width: 90%;
-    height: 90%;
-    margin: auto;
-    border-radius: 100%;
     background-image: url(../IMAGE/minato.jpg);
-    background-size: cover;
-    background-position: center;
 }
 
 .img3 {
-    width: 90%;
-    height: 90%;
-    margin: auto;
-    margin-top: 0px;
-    border-radius: 100%;
     background-image: url(../IMAGE/guy.jpg);
+}
+
+.img1:hover,.img2:hover,.img3:hover{
+    width: 100%;
+    height: 100%;
+    transition: 1.0s;
     background-size: cover;
     background-position: center;
+    border-radius: 100%;
 }
 
 .img1:hover{
-    width: 100%;
-    height: 100%;
-    transition: 1.0s;
     background-image: url(../IMAGE/madara.gif);
-    background-size: cover;
-    background-position: center;
-    border-radius: 100%;
 }
-
 .img2:hover{
-    width: 100%;
-    height: 100%;
-    transition: 1.0s;
     background-image: url(../IMAGE/minato.gif);
-    background-size: cover;
-    background-position: center;
-    border-radius: 100%;
   }
   
   .img3:hover{
-    width: 100%;
-    height: 100%;
-    transition: 1.0s;
     background-image: url(../IMAGE/Guy.gif);
-    background-size: cover;
-    background-position: center;
-    border-radius: 100%;
   }
   
 .container2{
@@ -311,13 +286,18 @@ section{
     background-image: url(../IMAGE/ICON/whatsapp.png);
 }
 
+.face:hover, .inst:hover, .whats:hover{
+    width: 20%;
+    height: 113%; 
+    transition: 0.5s;
+}
 .footer{
     margin: auto;
     margin-top: 2%;
     margin-left: 50%;
-    color: black;
+    color: white;
     width: 20%;
     height: 80%;
-    text-shadow: 2px 2px white;
+    text-shadow: 2px 2px black;
     font-size: 16px;
 }
